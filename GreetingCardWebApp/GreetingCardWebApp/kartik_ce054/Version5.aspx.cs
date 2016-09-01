@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace GreetingCardWebApp
 {
-    public partial class kartik_54 : System.Web.UI.Page
+    public partial class Version5 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Version5.aspx.cs" Inherits="GreetingCardWebApp.kartik_54" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Version5.aspx.cs" Inherits="GreetingCardWebApp.Version5" %>
 
 <!DOCTYPE html>
 
