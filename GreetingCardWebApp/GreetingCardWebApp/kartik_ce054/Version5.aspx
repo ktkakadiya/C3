@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="kartik_54.aspx.cs" Inherits="GreetingCardWebApp.kartik_54" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Version5.aspx.cs" Inherits="GreetingCardWebApp.kartik_54" %>
 
 <!DOCTYPE html>
 
@@ -45,14 +45,17 @@
                     <asp:TextBox ID="TextBox4" runat="server" TextMode="Range" AutoPostBack="true" OnTextChanged="TextBox4_TextChanged"></asp:TextBox>
                     <br /><br />
 
+                    <asp:CheckBox ID="CheckBox1" runat="server" Text="Tick if you want to add default picture" OnCheckedChanged="CheckBox1_CheckedChanged" AutoPostBack="true" />
+                    <br/><br />
                     <asp:Label ID="Label3" runat="server" Text="Enter Text : "></asp:Label>
                     <asp:TextBox ID="TextBox3" runat="server" TextMode="MultiLine" Height="80px" Width="280px" AutoPostBack="true" OnTextChanged="TextBox3_TextChanged"></asp:TextBox>
                     <br /><br />
 
                 </asp:TableCell>
                 <asp:TableCell >
-                    <asp:Panel ID="Panel1" runat="server" Width="500px" Height="600px">
-                        <asp:Label ID="Label7" runat="server" Text=""></asp:Label>
+                    <asp:Panel ID="Panel1" runat="server" Width="500px" Height="600px" HorizontalAlign="Center">
+                        <asp:Label ID="Label7" runat="server" Text=""></asp:Label><br/><br/>
+                        <asp:Image ID="Image1" runat="server" Height="200px" Width="200px" ImageUrl="~/kartik_ce054/image1.jpg" Visible="false"/>
                     </asp:Panel>
                 </asp:TableCell>
             </asp:TableRow>

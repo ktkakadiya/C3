@@ -44,5 +44,17 @@ namespace GreetingCardWebApp
         {
             Label7.Font.Size = Int32.Parse(TextBox4.Text) + 8;
         }
+
+        protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CheckBox1.Checked)
+            {
+                Image1.Visible = true;
+            }
+            else
+            {
+                Image1.Visible = false;
+            }
+        }
     }
 }
